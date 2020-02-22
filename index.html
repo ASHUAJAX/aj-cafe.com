@@ -1,0 +1,1999 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>navbar</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- ///swiper.js and swiper.css link////-->
+  
+<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+
+<style type="text/css">
+	*{
+		transition: 1.5s;
+	}
+
+	/*////swiper.css///*/
+	.swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      margin-top: 100px;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 400px;
+      height: 500px;
+
+    }
+    #Copyright{
+    	font-size: 25px;
+    	text-align: center;
+    	margin-top: 100px!important;
+    }
+     #my span{
+    	color: tomato;
+    	font-size: 14px;
+    	font-family: monospace;
+    	text-shadow: 0 0 5px blue,0 0 10px blue; 
+    
+    }
+    #my-img{
+    	width: 100px!important;
+    	height: 100px!important;
+    	border-radius: 100%!important;
+    	
+    }
+    #my{
+    	width: 100px!important;
+    	height: 100px!important;
+    	border-radius: 100%!important;
+    	
+    	border: 2px solid lime;
+    	box-shadow: 0px 0px 40px 0px blue;
+    }
+	/*///navbar style////*/
+nav{
+	 
+	background:transparent;	
+	box-shadow: 0px 0px 20px 0px cyan;
+	height: 180px;
+	margin-top: -830px;
+	z-index: -1%;
+
+
+}
+
+.icon i{
+	transition: 4s;
+}
+.icon:hover>i{
+	transform: rotateY(360deg);
+}
+.navbar-nav{
+	margin-left: 100px;
+}
+
+li{
+	letter-spacing:2px;
+	width: 150px;
+	height: 50px;
+}
+
+#b:focus{
+	background-color: #14F3FF90!important;
+	box-shadow: 0px 0px 20px 0px cyan!important;
+	color:#FB02E0;
+	text-shadow: 0 0 3px #FB02E0, 0 0 8px #FB02E0;
+
+}
+button:focus{
+	
+	outline: none;
+	border:2px solid black; 
+	background: #30FFFD90;
+	text-shadow: 0 0 8px cyan, 0 0 15px cyan;
+	box-shadow: 0px 0px 20px 0px cyan;
+	
+}
+#b:hover{
+	background-color: #14F3FF90;
+	box-shadow: 0px 0px 20px 0px cyan;
+	color:#FB02E0;
+	text-shadow: 0 0 3px #FB02E0, 0 0 8px #FB02E0;
+}
+#a{
+	color:cyan;
+	font-size: 100px;
+	font-family: megrim;
+	text-shadow: 0 0 8px cyan, 0 0 15px cyan;
+	width: 170px;
+	height: 170px;
+	 border-radius: 150px;
+	 border:2px solid #FB02E0;
+	 text-align: center;
+	 background-color: #FB02E050;
+	 box-shadow: 0px 0px 20px 0px #FB02E0;
+
+}
+#a p{
+	font-size: 20px;
+	margin-top: -35px;
+	margin-left: -70px;
+	background-color: #14F3FF70;
+	padding-left:5px; 
+	
+
+	width: 325px;
+	color:orange;
+	letter-spacing:8px; 
+	text-shadow: 0 0 3px orange , 0 0 8px orange ;
+	font-weight: bold;
+	font-family: megrim;
+}
+
+body{
+ 	
+ background:linear-gradient(to top left,cyan,#FB02E0);
+
+
+ }
+
+
+ #aj{
+ 	
+ }
+#b{
+	color:lime;
+	
+	text-shadow: 0 0 3px lime, 0 0 8px lime;
+	
+		font-size: 20px;
+		
+		transition: 1s ease all;
+		position: relative;
+		top: 50px;
+		font-family: 'Lobster', cursive;
+}
+/*//////slider//////*/
+ 
+img{
+  		width: 1500px!important;
+  		height: 840px!important;
+  		
+  	}
+  	
+  	h1{
+  		color: tomato;
+	text-shadow: 0 0 10px #FB02E0, 0 0 8px tomato;
+	font-size: 50px;
+	font-weight: bold;
+
+  	}
+  	
+  	p{
+  		color:lime;
+	font-family: 'Lobster', cursive;
+	letter-spacing: 5px;
+		text-shadow: 0 0 3px lime, 0 0 8px lime;
+		font-size: 40px;
+
+
+  	}
+     .carousel{
+     	margin-top: -90px;
+     	width: 100%!important;
+
+     }
+  	.carousel-caption{
+  		height: 400px!important;
+  	}
+  	.carousel-indicators{
+  		height: 60px!important;
+  	}
+  	#btn{
+  		border:4px solid cyan;
+  		background-color: #FB02E050;
+  		color: cyan;
+  		font-size: 30px;
+  		transition: 0.4s;
+  		font-weight: bold;
+  		box-shadow: 0px 0px 40px 0px cyan ;
+  	}
+  	#btn:hover{
+  		
+  		border:6px solid #FB02E0;
+  		color: #FB02E0;
+  		background-color: #14F3FF50;
+  		box-shadow: 0px 0px 40px 0px #FB02E0 ;
+  	}
+
+  	/*////transition effect for carousel icons////*/
+
+  	.carousel-control-prev{
+  		background-color: lime;	
+  		height: 50px;
+  		margin-top:450px;
+  		width: 50px;
+  		margin-left: 50px;
+  		opacity: 0;
+  		border-radius: 40px;
+  			transition-duration:1.5s!important;
+  	}
+  	.carousel-control-next{
+  		background-color: lime;	
+  		height: 50px;
+  		margin-top:450px;
+  		width: 50px;
+  		border-radius: 40px;
+  		margin-right: 50px;
+  		opacity: 0;
+  		transition-duration:1.5s!important;
+  	}
+.carousel:hover >.carousel-control-prev{
+	opacity: 1;
+
+}
+.carousel:hover >.carousel-control-next{
+	opacity: 1;
+
+}
+
+/*////////////for gradient carousel image////////*/
+
+.img-gradient{
+  position:relative;
+  display:inline-block;
+}
+
+
+/* 
+#002f4b,#dc4225 
+Convert HEX to RGBA - http://hex2rgba.devoth.com/
+*/
+.img-gradient:after {
+  content:'';
+  position:absolute;
+  left:0; top:0;
+  width:100%; height:100%;
+  display:inline-block;
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(0,0, 0, 0.5) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0, 0, 0, 0.5)), color-stop(100%,rgba(0,47,75,0.5))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(0, 0, 0, 0.5) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(0, 0, 0, 0.5) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(0, 0, 0, 0.5) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0,47,75,0.5) 0%,rgba(0, 0, 0, 0.5) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+.img-gradient img{
+  display:block;
+}
+
+/*///...icons///////*/
+
+.icon{
+	font-size: 48px;
+	margin-top: 800px;
+	 width: 100px;
+	 height: 100px;
+	 border-radius: 1000%;
+	 border:1px solid lime; 
+	 background-color: rgba(0,0,0,0.3);
+	 color: lime;
+	 
+	
+	 
+
+
+}
+i{
+	margin-top: 30px;
+
+
+}
+#icon-t{
+	
+	
+	padding: 10px;
+	
+}
+#icon-1{
+	font-size: 23px;
+	}
+#icon-p{
+
+	font-size: 17px;
+	font-family: segoe-script;
+	color: lime;
+	text-shadow: none;
+	font-weight: bold;
+	font-style: italic;
+	
+
+
+
+}
+/*/////the restaurant////*/
+
+#image-1{
+	margin-top:20px!important;
+	transition: 2s;
+}
+#image-1:hover{
+	margin-top:20px!important;
+	box-shadow: 0px 0px 40px 0px cyan;
+}
+
+
+/*///////the special menu items/////*/
+#special-1{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+ 
+ 
+ background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("9.jpg");
+
+ background-size: 115%;
+ padding: 50px 50px;
+ transition: 0.7s;
+ cursor: pointer;
+ 
+ 
+}
+#special-1:hover{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+ background-position: center;
+ 
+ background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("9.jpg");
+
+ background-size: 200%;
+ padding: 50px 50px;
+ background-position: left;
+
+ 
+}
+#special-2{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+ 
+ 
+ background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("1.jpg");
+
+ background-size: 115%;
+ padding: 50px 50px;
+ transition: 0.7s;
+ cursor: pointer;
+ 
+}
+#special-2:hover{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+ background-position: center;
+ 
+ background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("1.jpg");
+
+ background-size: 200%;
+ padding: 50px 50px;
+
+ background-position: left;
+}
+#special-3{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+ 
+ 
+ background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("2.jpg");
+
+ background-size: 115%;
+ padding: 50px 50px;
+ transition: 0.7s;
+ cursor: pointer;
+ 
+}
+#special-3:hover{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+ background-position: center;
+ 
+ background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("2.jpg");
+
+ 
+ padding: 50px 50px;
+
+
+ background-size: 200%;
+ background-position:left;
+
+ 
+}
+#special-4{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+ 
+ 
+ background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("3.jpg");
+
+ background-size: 115%;
+ padding: 50px 50px;
+ transition: 0.7s;
+ cursor: pointer;
+  
+}
+#special-4:hover{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+ background-position: center;
+ 
+ background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("3.jpg");
+
+ background-size: 200%;
+ background-position:left;
+ padding: 50px 50px;
+
+}
+#special-4:hover>#spcl-h{
+	background-color: #5BAAAE70;
+
+}	
+#special-1:hover>#spcl-h{
+	background-color: #5BAAAE70;
+	
+}	
+#special-2:hover>#spcl-h{
+	background-color: #5BAAAE70;
+	
+}
+#special-3:hover>#spcl-h{
+	background-color: #5BAAAE70;
+	
+}
+#some{
+	margin-top: 400px !important;
+}		
+
+#spcl-h{
+	
+	width: 110px;
+	height: 110px;
+	background: lime;
+	text-align: center;
+	border-radius: 100px;
+	margin-top: 10px;
+	margin-left: 200px;
+	transition: 1s;
+
+
+}
+#spcl-h h1{
+	
+	font-size: 25px;
+	margin-top: 100px;
+	padding-top: 40px;
+	transition: 1s;
+	
+	
+}
+#spcl-p{
+	
+	font-size: 35px;
+	color: cyan;
+	text-shadow: 0 0 3px cyan,0 0 10px cyan;
+	
+	
+	
+}
+#swiper-caption h1{
+	background-color: rgba(255,55,255,0.5);
+	color: #39D2F5!important;
+	text-shadow: 0 0 5px red,0 0 10px red;
+
+}
+#swiper-caption p{
+	font-size: 30px;
+	color: lime!important;
+	text-shadow: 0 0 10px blue,0 0 10px blue;
+	font-weight: bold;
+
+}
+/*//////last /////*/
+#last h1{
+font-size: 32px;
+padding:35px 35px;
+
+}
+#last p{
+font-size: 15px;
+color: lime;
+font-weight: bold;
+font-family: 'Dosis';
+text-shadow: 0 0 2px blue,0 0 7px blue;
+
+}
+
+#last pre{
+font-size: 15px;
+color: lime;
+font-weight: bold;
+letter-spacing: 4px;
+text-shadow: 0 0 2px blue,0 0 5px blue;
+
+}
+
+#last-1{
+margin-top:  200px!important;
+}
+
+#last-m{
+	margin-top: 547px!important;
+}
+#last-l{
+	margin-top: 547px!important;
+}
+
+#last-m pre{
+font-size: 15px;
+color: lime;
+font-weight: bold;
+letter-spacing: 4px;
+text-shadow: 0 0 2px blue,0 0 5px blue;
+
+}
+
+#last-m p{
+	font-size: 15px;
+color: lime;
+font-weight: bold;
+font-family: 'Dosis';
+text-shadow: 0 0 2px blue,0 0 7px blue;
+}
+#last-m h2{
+font-size: 25px;
+text-shadow: 0 0 2px blue,0 0 7px blue;
+color: cyan;
+font-weight: bold;
+font-family: 'Dosis';
+}
+#last-m h1{
+font-size: 32px;
+padding:35px 35px;
+
+}
+
+#last-l p{
+	font-size: 15px;
+color: lime;
+font-weight: bold;
+font-family: 'Dosis';
+text-shadow: 0 0 2px blue,0 0 7px blue;
+}
+#last-l h2{
+font-size: 25px;
+text-shadow: 0 0 2px blue,0 0 7px blue;
+color: cyan;
+font-weight: bold;
+font-family: 'Dosis';
+}
+#last-l h1{
+font-size: 32px;
+padding:35px 35px;
+
+}
+
+#last-l a{
+font-size: 15px;
+color: lime;
+font-weight: bold;
+font-family: megrim;
+text-shadow: 0 0 2px blue,0 0 7px blue;
+transition: 0.5s;
+}
+
+#last-l a:hover{
+font-size: 20px;
+color: lime;
+font-weight: bold;
+font-family: megrim;
+text-shadow: 0 0 2px blue,0 0 7px blue;
+}
+
+/*///////responsive/////////*/
+
+
+@media(min-width: 992px){
+
+#b{
+	color:lime;
+	
+	text-shadow: 0 0 3px lime, 0 0 8px lime;
+	
+		font-size: 20px;
+		
+		transition: 1s ease all;
+		position: relative;
+		top: 60px;
+		font-family: 'Lobster', cursive;
+}
+#icon-d{
+	margin-top: 700px!important;
+	
+}
+.icon{
+	
+	 width: 100px;
+	 height: 100px;
+	 border-radius: 1000%;
+	 border:1px solid lime; 
+	 background-color: rgba(0,0,0,0.3);
+	 color: lime;
+	
+	 font-size: 45px;
+}
+
+
+#icon-1{
+	font-size: 15px!important;
+}
+  #icon-t{
+	
+	margin-left:-20px;
+	font-size: 5px!important;
+	
+	
+}
+#icon-p{
+	
+	
+	font-size: 10px!important;
+	
+	
+}
+#special-1{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+
+ background-size: 130%!important;
+ padding: 50px 50px;
+ transition: 0.7s;
+ cursor: pointer;
+ 
+ 
+}
+#special-2{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+
+ background-size: 150%!important;
+ padding: 50px 50px;
+ transition: 0.7s;
+ cursor: pointer;
+ 
+ 
+}
+#special-3{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+
+ background-size: 130%!important;
+ padding: 50px 50px;
+ transition: 0.7s;
+ cursor: pointer;
+ 
+ 
+}
+#special-4{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+
+ background-size: 150%!important;
+ padding: 50px 50px;
+ transition: 0.7s;
+ cursor: pointer;
+ 
+ 
+}
+	
+	#spcl-h{
+	
+	width: 110px;
+	height: 110px;
+	background: lime;
+	text-align: center;
+	border-radius: 100px;
+	margin-top: 10px;
+	margin-left: 202px;
+	transition: 1s;
+
+
+}
+#spcl-p
+{
+	
+	font-size:35px!important; 
+
+
+}
+
+#a{
+	color:cyan;
+	font-size: 70px;
+	font-family: megrim;
+	text-shadow: 0 0 8px cyan, 0 0 15px cyan;
+	width: 110px;
+	height: 110px;
+	 border-radius: 150px;
+	 border:2px solid #FB02E0;
+	 text-align: center;
+	 background-color: #FB02E050;
+	 box-shadow: 0px 0px 20px 0px #FB02E0;
+	 margin-left: 55px;
+	 margin-top: -55px;
+
+}
+#a p{
+	font-size: 14px;
+	margin-top: -30px;
+	margin-left: -65px;
+	background-color: #14F3FF70;
+	padding-left:5px; 
+	
+
+	width: 260px;
+	color:orange;
+	letter-spacing:4px; 
+	text-shadow: 0 0 3px orange , 0 0 8px orange ;
+	font-weight: bold;
+	font-family: megrim;
+}
+
+}
+@media(min-width: 768px) and (max-width: 991px)
+{
+	#icon-d{
+	margin-top: 700px!important;
+	
+}
+.icon{
+	
+	margin-top: 100px;
+	 width: 100px;
+	 height: 100px;
+	 border-radius: 1000%;
+	 border:1px solid lime; 
+	 background-color: rgba(0,0,0,0.3);
+	 color: lime;
+	 margin-left: 80px;
+	 font-size: 35px;
+}
+#icon-p{
+	font-size: 35px;
+}
+#last-1{
+margin-top:  200px!important;
+}
+
+#last-m{
+	margin-top: 300px!important;
+}
+#last-l{
+	margin-top: 300px!important;
+}
+#icon-1{
+	font-size: 15px!important;
+}
+  #icon-t{
+	
+	margin-left:-20px;
+	font-size: 5px!important;
+	
+	
+}
+#icon-p{
+	
+	
+	font-size: 10px!important;
+	
+	
+}
+	#special-1{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+
+ background-size: 205%!important;
+ padding: 50px 50px;
+ transition: 0.7s;
+ cursor: pointer;
+ 
+ 
+}
+#special-2{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+
+ background-size: 210%!important;
+ padding: 50px 50px;
+ transition: 0.7s;
+ cursor: pointer;
+ 
+ 
+}
+#special-3{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+
+ background-size: 205%!important;
+ padding: 50px 50px;
+ transition: 0.7s;
+ cursor: pointer;
+ 
+ 
+}
+#special-4{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+
+ background-size: 210%!important;
+ padding: 50px 50px;
+ transition: 0.7s;
+ cursor: pointer;
+ 
+ 
+}
+	#spcl-h{
+	
+	width: 110px;
+	height: 110px;
+	background: lime;
+	text-align: center;
+	border-radius: 100px;
+	margin-top: 10px;
+	margin-left: 82px;
+	transition: 1s;
+
+
+}
+#spcl-p
+{
+	
+	font-size:20px!important; 
+
+
+}
+	li{
+	letter-spacing:2px;
+	width: 120px;
+	height: 50px;
+	position: relative;
+	left: -30px;
+}
+ul li a{
+	letter-spacing:2px;
+	width: 120px!important;
+	
+	font-size: 14px!important;
+
+	
+}
+
+#a{
+	color:cyan;
+	font-size: 60px;
+	font-family: megrim;
+	text-shadow: 0 0 8px cyan, 0 0 15px cyan;
+	width: 100px;
+	height: 100px;
+	 border-radius: 150px;
+	 border:2px solid #FB02E0;
+	 text-align: center;
+	 background-color: #FB02E050;
+	 box-shadow: 0px 0px 20px 0px #FB02E0;
+	 margin-left: 15px;
+	 margin-top: -60px;
+
+}
+#a p{
+	font-size: 10px;
+	margin-top: -20px;
+	margin-left: -45px;
+	background-color: #14F3FF70;
+	padding-left:5px; 
+	
+
+	width: 180px;
+	color:orange;
+	letter-spacing:4px; 
+	text-shadow: 0 0 3px orange , 0 0 8px orange ;
+	font-weight: bold;
+	font-family: megrim;
+}
+
+}
+@media(min-width: 575px) and (max-width: 767px)
+{
+	#icon-d{
+	margin-top: 700px!important;
+	
+}
+	.icon{
+	
+	margin-top: 800px;
+	 width: 80px;
+	 height: 80px;
+	 border-radius: 1000%;
+	 border:1px solid lime; 
+	 background-color: rgba(0,0,0,0.3);
+	 color: lime;
+	 margin-left: 0px;
+	 font-size: 25px;
+
+	 
+	
+	 
+
+
+}
+#last-1{
+margin-top:  200px!important;
+}
+
+#last-m{
+	margin-top: 300px!important;
+}
+#last-l{
+	margin-top: 300px!important;
+}
+#icon-1{
+	font-size: 15px!important;
+}
+  #icon-t{
+	
+	margin-left:-20px;
+	font-size: 5px!important;
+	
+	
+}
+#icon-p{
+	
+	
+	font-size: 10px!important;
+	
+	
+}
+	#special-1{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+
+ background-size: 305%!important;
+ padding: 50px 50px;
+ transition: 0.7s;
+ cursor: pointer;
+ 
+ 
+}
+#special-2{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+
+ background-size: 305%!important;
+ padding: 50px 50px;
+ transition: 0.7s;
+ cursor: pointer;
+ 
+ 
+}
+#special-3{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+
+ background-size: 305%;
+ padding: 50px 50px;
+ transition: 0.7s;
+ cursor: pointer;
+ 
+ 
+}
+#special-4{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+
+ background-size: 305%;
+ padding: 50px 50px;
+ transition: 0.7s;
+ cursor: pointer;
+ 
+ 
+}
+	#spcl-h{
+	
+	width: 110px;
+	height: 110px;
+	background: lime;
+	text-align: center;
+	border-radius: 100px;
+	margin-top: 10px;
+	margin-left: 32px;
+	transition: 1s;
+
+
+}
+#spcl-p
+{
+	
+	font-size:20px!important; 
+
+
+}
+	li{
+	letter-spacing:2px;
+	width: 90px;
+	height: 50px;
+	position: relative;
+	left: -50px;
+}
+ul li a{
+	letter-spacing:2px;
+	width: 85px!important;
+	
+	font-size: 8px!important;
+
+	
+}
+
+#a{
+	color:cyan;
+	font-size: 60px;
+	font-family: megrim;
+	text-shadow: 0 0 8px cyan, 0 0 15px cyan;
+	width: 100px;
+	height: 100px;
+	 border-radius: 150px;
+	 border:2px solid #FB02E0;
+	 text-align: center;
+	 background-color: #FB02E050;
+	 box-shadow: 0px 0px 20px 0px #FB02E0;
+	 margin-left: 15px;
+	 margin-top: -60px;
+
+}
+#a p{
+	font-size: 10px;
+	margin-top: -20px;
+	margin-left: -45px;
+	background-color: #14F3FF70;
+	padding-left:5px; 
+	
+
+	width: 180px;
+	color:orange;
+	letter-spacing:4px; 
+	text-shadow: 0 0 3px orange , 0 0 8px orange ;
+	font-weight: bold;
+	font-family: megrim;
+}
+
+
+}
+@media(min-width: 480px) and (max-width: 574px)
+{
+	#icon-d{
+	margin-top: 700px!important;
+	
+}
+h1{
+  		color: tomato;
+	text-shadow: 0 0 10px #FB02E0, 0 0 8px tomato;
+	font-size: 32px;
+	font-weight: bold;
+
+  	}
+  	
+  	p{
+  		color:lime;
+	font-family: 'Lobster', cursive;
+	letter-spacing: 5px;
+		text-shadow: 0 0 3px lime, 0 0 8px lime;
+		font-size: 30px;
+
+
+  	}
+  	.icon{
+	font-size: 48px;
+	margin-top: 50px;
+	 width: 100px;
+	 height: 100px;
+	 border-radius: 1000%;
+	 border:1px solid lime; 
+	 background-color: rgba(0,0,0,0.3);
+	 color: lime;
+	padding-bottom: 100px!important;
+	
+	
+	 
+
+
+}
+
+#icon-p{
+
+	font-size: 17px;
+	font-family: segoe-script;
+	color: lime;
+	text-shadow: none;
+	font-weight: bold;
+	font-style: italic;
+	padding-bottom: 100px!important;
+}
+
+
+
+ 
+
+ #last-1{
+margin-top:  0px!important;
+}
+
+#last-m{
+	margin-top: 0px!important;
+}
+#last-l{
+	margin-top: 0px!important;
+}
+#a{
+	color:cyan;
+	font-size: 60px;
+	font-family: megrim;
+	text-shadow: 0 0 8px cyan, 0 0 15px cyan;
+	width: 100px;
+	height: 100px;
+	 border-radius: 100px;
+	 border:2px solid #FB02E0;
+	 text-align: center;
+	 background-color: #FB02E050;
+	 box-shadow: 0px 0px 20px 0px #FB02E0;
+	 margin-left: 60px;
+	 
+
+}
+#a p{
+	font-size: 10px;
+	margin-top: -20px;
+	margin-left: -70px;
+	background-color: #14F3FF70;
+	padding-left:5px; 
+	
+
+	width: 240px;
+	color:orange;
+	letter-spacing:8px; 
+	text-shadow: 0 0 3px orange , 0 0 8px orange ;
+	font-weight: bold;
+	font-family: megrim;
+}
+#navy{
+background-color: rgba(255,55,255,0.5)!important;
+	height: 300px;
+	margin-top: 0px;
+	width: 100px!important;
+	margin-left:-100; 
+
+}
+#b{
+	font-size: 20px;
+	width: 200px!important;
+	margin-top: -50px;
+}
+
+
+
+li{
+
+	width: 200px!important;
+}
+
+#special-1,#special-3{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+background-size: 175%;
+ padding: 50px 50px;
+ transition: 0.7s;
+ cursor: pointer;
+ 
+ 
+}
+#special-2,#special-4{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+background-size: 192%;
+ padding: 50px 50px;
+ transition: 0.7s;
+ cursor: pointer;
+ 
+ 
+}
+#special-4:hover{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+background-size: 302%;
+ padding: 50px 50px;
+ background-position: left;
+ 
+ 
+}
+#special-2:hover{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+background-size: 302%;
+ padding: 50px 50px;
+ background-position: left;
+ 
+ 
+}
+#special-1:hover{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+background-size: 302%;
+ padding: 50px 50px;
+ background-position: left;
+ 
+ 
+}
+#special-3:hover{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+background-size: 302%;
+ padding: 50px 50px;
+ background-position: left;
+ 
+ 
+}
+#spcl-h{
+	
+	width: 110px;
+	height: 110px;
+	background: lime;
+	text-align: center;
+	border-radius: 100px;
+	margin-top: 10px;
+	margin-left: 120px;
+	transition: 1s;
+
+
+}
+#spcl-p
+{
+	
+	font-size:25px!important; 
+
+
+}
+#last-1{
+	margin-top: 400px!important;	
+}
+}
+
+@media(min-width: 320px) and (max-width: 479px)
+{
+	#icon-d{
+	margin-top: 700px!important;
+	
+}
+	h1{
+  		color: tomato;
+	text-shadow: 0 0 10px #FB02E0, 0 0 8px tomato;
+	font-size: 25px;
+	font-weight: bold;
+
+  	}
+  	
+  	p{
+  		color:lime;
+	font-family: 'Lobster', cursive;
+	letter-spacing: 5px;
+		text-shadow: 0 0 3px lime, 0 0 8px lime;
+		font-size: 20px;
+
+
+  	}
+  	.icon{
+	font-size: 48px;
+	margin-top: 50px;
+	 width: 100px;
+	 height: 100px;
+	 border-radius: 1000%;
+	 border:1px solid lime; 
+	 background-color: rgba(0,0,0,0.3);
+	 color: lime;
+	padding-bottom: 100px!important;
+	
+	
+	 
+
+
+}
+
+#icon-p{
+
+	font-size: 17px;
+	font-family: segoe-script;
+	color: lime;
+	text-shadow: none;
+	font-weight: bold;
+	font-style: italic;
+	padding-bottom: 100px!important;
+}
+
+
+
+  
+ 
+
+ #last-1{
+margin-top:  0px!important;
+}
+
+#last-m{
+	margin-top: 0px!important;
+}
+#last-l{
+	margin-top: 0px!important;
+}
+#a{
+	color:cyan;
+	font-size: 60px;
+	font-family: megrim;
+	text-shadow: 0 0 8px cyan, 0 0 15px cyan;
+	width: 100px;
+	height: 100px;
+	 border-radius: 100px;
+	 border:2px solid #FB02E0;
+	 text-align: center;
+	 background-color: #FB02E050;
+	 box-shadow: 0px 0px 20px 0px #FB02E0;
+	 margin-left: 60px;
+	 
+
+}
+#a p{
+	font-size: 10px;
+	margin-top: -20px;
+	margin-left: -70px;
+	background-color: #14F3FF70;
+	padding-left:5px; 
+	
+
+	width: 240px;
+	color:orange;
+	letter-spacing:8px; 
+	text-shadow: 0 0 3px orange , 0 0 8px orange ;
+	font-weight: bold;
+	font-family: megrim;
+}
+#navy{
+	background-color: rgba(255,55,255,0.5)!important;
+	height: 300px;
+	margin-top: 0px;
+	width: 100px!important;
+	margin-left:-100; 
+
+}
+#b{
+	font-size: 20px;
+	width: 200px!important;
+	margin-top: -50px;
+}
+
+
+
+li{
+
+	width: 200px!important;
+}
+
+#special-1,#special-3{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+background-size: 175%;
+ padding: 50px 50px;
+ transition: 0.7s;
+ cursor: pointer;
+ 
+ 
+}
+#special-2,#special-4{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+background-size: 192%;
+ padding: 50px 50px;
+ transition: 0.7s;
+ cursor: pointer;
+ 
+ 
+}
+#special-4:hover{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+background-size: 302%;
+ padding: 50px 50px;
+ background-position: left;
+ 
+ 
+}
+#special-2:hover{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+background-size: 302%;
+ padding: 50px 50px;
+ background-position: left;
+ 
+ 
+}
+#special-1:hover{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+background-size: 302%;
+ padding: 50px 50px;
+ background-position: left;
+ 
+ 
+}
+#special-3:hover{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+background-size: 302%;
+ padding: 50px 50px;
+ background-position: left;
+ 
+ 
+}
+#spcl-h{
+	
+	width: 110px;
+	height: 110px;
+	background: lime;
+	text-align: center;
+	border-radius: 100px;
+	margin-top: 10px;
+	margin-left: 80px;
+	transition: 1s;
+
+
+}
+#spcl-p
+{
+	
+	font-size:25px!important; 
+
+
+}
+#last-1{
+	margin-top: 400px!important;	
+}
+.swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 250px;
+      height: 350px;
+
+    }
+
+}
+@media(min-width: 319px){
+	
+	
+	#special-1,#special-3{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+background-size: 255%;
+background-position: center;
+ padding: 50px 50px;
+ transition: 0.7s;
+ cursor: pointer;
+ 
+ 
+}
+#special-2,#special-4{
+	margin-top: 100px;
+ height: 400px!important;
+ width: 500px!important;
+background-size: 255%;
+background-position: center;
+ padding: 50px 50px;
+ transition: 0.7s;
+ cursor: pointer;
+ 
+ 
+}
+	
+}
+
+
+</style>
+	
+</head>
+<body>
+	
+
+	<!-- ////////////slider///////////	 -->
+	<br>
+	<section  id="slider">
+		
+		
+		<div class="carousel slide " id="myslider" data-ride="carousel" data-interval="5000" data-pause="false">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="img-gradient">
+						<img  id="s-img" class="img-fluid" src="4.jpg"  alt="5.jpg">
+					</div>
+					<div class="carousel-caption">
+						<h1 id="h1" class="text-uppercase">we will welcome<br> with swag</h1>
+						<p id="p1">#for coffee</p>
+						<button id="btn">click to order</button>
+						
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="img-gradient">
+					<img   id="s-img" class="img-fluid" src="5.jpg"   alt="5.jpg">
+				</div>
+					<div class="carousel-caption">
+						<h1 >PURE AND  HEALTHY</h1>
+						<p class="text-lowercase">#SOUTH INDIAN FOOD</p>
+						<button id="btn">click to order</button> 
+						
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="img-gradient">
+					<img   id="s-img" class="img-fluid" src="6.jpg"   alt="5.jpg">
+				</div>
+					<div class="carousel-caption">
+						<h1>FRESH VEGETABLES<BR>AND SPICES</h1>
+						<p class="text-lowercase">#NEAT AND CLEAN</p>
+						<button id="btn">click to order</button>
+						
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="img-gradient">
+					<img   id="s-img" class="img-fluid" src="7.jpg"   alt="5.jpg">
+				</div>
+					<div class="carousel-caption">
+						<h1>OUR TRADITIONAL<BR> INDIAN FOOD'S</h1>
+						<p class="text-lowercase">#DESI FOODS</p>
+						<button id="btn">click to order</button>
+						
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="img-gradient">
+					<img   id="s-img" class="img-fluid" src="8.jpg"   alt="5.jpg">
+				</div>
+					<div class="carousel-caption">
+						<h1>CHINESE FOODS<br> WITH DESI TADKA</h1>
+						<p class="text-lowercase">#NOODLES AND BURGERS</p>
+						<button id="btn">click to order</button>
+						
+					</div>
+				</div>
+				
+			</div>
+
+			<ol class="carousel-indicators">
+			<li class="active" id="n" data-target="#myslider" data-slide-to="0"></li>
+		
+			<li  data-target="#myslider"  data-slide-to="1"></li>
+		
+			<li  data-target="#myslider"  data-slide-to="2"></li>
+			
+			<li  data-target="#myslider"   data-slide-to="3"></li>
+			<li  data-target="#myslider"   data-slide-to="4"></li>
+			</ol>
+			<a href="#myslider" data-slide="prev"  class="carousel-control-prev">
+				<span class="carousel-control-prev-icon" ></span>
+			</a>
+			<a href="#myslider" data-slide="next"  class="carousel-control-next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+			
+			
+		</div>
+		
+		<!-- /////navbar//// -->
+			
+		</section>
+		<br><br>
+
+		<nav class=" nav-tabs navbar  navbar-expand-sm navbar-dark border-0"  >
+
+			<div class="container ">
+
+			<a href="#" class="navbar-brand" id="a">AJ<p class="font-weight-bold">cafe & restaurant</p></a>
+
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#navy">
+
+				<span class="navbar-toggler-icon"></span>
+
+			</button>
+
+	<div class="collapse nav navbar-collapse text-uppercase" id="navy" >
+
+			<ul class="navbar-nav text-center mr-lg-0 m-auto font-weight-bold" >
+
+				<li class="nav-item" >
+
+					<a href="#" class="nav-link " id="b" >home</a>
+
+				</li>
+				<li class="nav-item">
+
+					<a href="#" class="nav-link" id="b">about-us</a>
+
+				</li>
+				<li class="nav-item">
+
+					<a href="#" class="nav-link" id="b">food's</a>
+
+				</li>
+				<li class="nav-item">
+
+					<a href="#" class="nav-link" id="b">fun</a>
+
+				</li>
+				<li class="nav-item">
+
+					<a href="#" class="nav-link" id="b">contact-us</a>
+
+				</li>
+
+			</ul>
+			</nav>
+			</div>
+		</div>
+
+	
+<!-- /////icons//// -->
+<section>
+	<div class="container">
+		<div class="row" id="icon-d">
+			<div class="col-xl-3 col-md-6 col-lg-6 col-sm-6 text-center col-7 d-block m-auto ml-md-0">
+				<div class="icon m-auto"><i class="fa fa-cutlery 12x " aria-hidden="true"></i></div>
+				<div id="icon-t" class="m-auto">
+				<h1 id="icon-1">ENJOY EATING</h1>
+				<p class="text-capitalize" id="icon-p">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+			</div>
+
+		    </div>
+
+		    <div class="col-xl-3 col-md-6 col-lg-6 col-sm-6 col-7 text-center d-block m-auto">
+				<div class="icon m-auto"><i class="fa fa-lemon-o" aria-hidden="true"></i></div>
+				<div id="icon-t" class="m-auto">
+				<h1 id="icon-1">FRESH FOOD'S</h1>
+				<p class="text-capitalize" id="icon-p">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+			</div>
+
+		    </div>
+
+		     <div class="col-xl-3 col-md-6 col-lg-6 col-sm-6 col-7 text-center d-block m-auto">
+				<div class="icon m-auto"><i class="fa fa-beer" aria-hidden="true"></i></div>
+				<div id="icon-t" class="m-auto">
+				<h1  id="icon-1">CUP OF COFFEES</h1>
+				<p class="text-capitalize" id="icon-p">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+			</div>
+
+		    </div>
+
+
+		     <div class="col-xl-3 col-md-6 col-lg-6 col-sm-6 col-7 text-center d-block m-auto">
+				<div class="icon m-auto"><i class="fa fa-pie-chart" aria-hidden="true"></i></div>
+				<div id="icon-t" class="m-auto">
+				<h1 class="text-capitalize" id="icon-1">VARIETY OF CAKES</h1>
+				<p class="text-capitalize"  id="icon-p">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+			</div>
+
+		    </div>
+
+
+		</div>
+	</div>
+</section>	
+
+<section>
+
+	<!-- //////the restaurant////// -->
+
+	<div class="container">
+		<div class="row">
+				<div class="col-xl-10 col-md-10 col-lg-10 col-sm-10 col-10 text-center d-block m-auto">
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>	
+					<div class="progress text-center m-auto" style="height: 5px;width: 150px;">
+			           <br>
+			           <br>
+			           <div class="progress-bar" style="width: 100%;background-color: lime!important;">
+				      </div>
+
+		            </div>
+		            <br>
+		            <h1 style="color: cyan">THE RESTAURANT</h1>
+		            <br>
+		            <p style="color:orange; font-size:15px; text-shadow: none; font-family: sans-serif;">Far far away, behind the word mountains,<br> far from the countries Vokalia and Consonantia, there live the blind texts.<br> Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+		        </div>
+
+		       
+
+		
+         </div>
+		
+	</div>
+</section>
+
+
+<!-- //////image galary////// -->
+<section>
+	<div class="container" id="image-1">
+
+		       <div >
+		        	<img  class="img-fluid" id="hov" src="1.png" >
+		        </div>
+
+	</div>
+
+</section>
+
+
+
+<!-- //////SPECAIL ITEMS/////// -->
+
+<div class="container">
+		<div class="row" >
+				<div class="col-xl-10 col-md-10 col-lg-10 col-sm-10 col-10 text-center d-block m-auto">
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>	
+					<div class="progress text-center m-auto" style="height: 5px;width: 150px;">
+			           <br>
+			           <br>
+			           <div class="progress-bar" style="width: 100%;background-color: lime!important;">
+				      </div>
+
+		            </div>
+		            <br>
+		            <h1 style="color: cyan">OUR SPECIAL MENU ITEMS</h1>
+		             
+		        </div>
+
+		       
+
+		
+         </div>
+		
+	</div>
+
+	<!-- //////SPECIAL galary////// -->
+<section>
+	<br>
+	<br>
+	<div class="container-fluid" >
+               <div class="row">
+
+		       <div class="col-xl-5 col-md-6 col-lg-6 col-sm-5 col-10 text-center d-block m-auto img-fluid" id="special-1">
+		        <div class="m-auto" id="spcl-h"><h1>₹-250/-</h1></div>
+		        <p id="spcl-p">grilled tikka</p>	
+		        </div>
+
+		        <div class="col-xl-5 col-md-6 col-lg-6 col-sm-5 col-10 text-center d-block m-auto img-fluid" id="special-2">
+		        	<div id="spcl-h" class="m-auto"><h1>₹-650/-</h1></div>
+		        <p id="spcl-p">hyderabadi chicken biryani </p>
+		        </div>
+
+		        <div class="col-xl-5 col-md-6 col-lg-6 col-sm-5 col-10 text-center d-block m-auto img-fluid" id="special-3">
+		        	<div id="spcl-h" class="m-auto"><h1>₹-150/-</h1></div>
+		        <p id="spcl-p">large smaosa's</p>
+		        </div>
+
+		        <div class="col-xl-5 col-md-6 col-lg-6 col-sm-5 col-10 text-center d-block m-auto img-fluid" id="special-4">
+		        	<div id="spcl-h" class="m-auto"><h1>₹-450/-</h1></div>
+		        <p id="spcl-p">indian full thali</p>
+		        </div>
+
+		        </div>
+
+	</div>
+
+</section>
+
+<!-- //////SOME MENU ITEMS/////// -->
+
+<div class="container">
+		<div class="row" id="some">
+				<div class="col-xl-10 col-md-10 col-lg-10 col-sm-10 col-10 text-center d-block m-auto">
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>	
+					<div class="progress text-center m-auto" style="height: 5px;width: 150px;">
+			           <br>
+			           <br>
+			           <div class="progress-bar" style="width: 100%;background-color: lime!important;">
+				      </div>
+
+		            </div>
+		            <br>
+		            <h1 style="color: cyan">SOME MENU ITEMS</h1>
+		             
+		        </div>
+
+		       
+
+		
+         </div>
+		
+	</div>
+
+ <!-- Swiper -->
+ 
+  <div class="swiper-container" >
+    <div class="swiper-wrapper" >
+      <div class="swiper-slide" style="background-image:url('1.jpg')">
+      	<div id="swiper-caption"><div><h1 class="text-center card-header card-primary">₹-450/-</h1></div>
+		        <p class="text-center card-text">chicken biryani</p></div></div>
+      <div class="swiper-slide" style="background-image:url('2.jpg')"><div id="swiper-caption"><div><h1 class="text-center card-header card-primary">3pcs-₹-149/-</h1>
+      </div>
+		        <p class="text-center card-text">special samosa</p></div>
+		    </div>
+      <div class="swiper-slide" style="background-image:url('3.jpg')"><div id="swiper-caption"><div><h1 class="text-center card-header card-primary">₹-550/-</h1></div>
+		        <p class="text-center card-text">indian full thali</p></div>
+		    </div>
+      <div class="swiper-slide" style="background-image:url('4.jpg')"><div id="swiper-caption"><div><h1 class="text-center card-header card-primary">₹-149/-</h1></div>
+		        <p class="text-center card-text">coffee's</p></div>
+		    </div>
+      <div class="swiper-slide" style="background-image:url('5.jpg')"><div id="swiper-caption"><div><h1 class="text-center card-header card-primary">₹-650/-</h1></div>
+		        <p class="text-center card-text">south indian thali</p></div>
+		    </div>
+      <div class="swiper-slide" style="background-image:url('1.jpg')"><div id="swiper-caption"><div><h1 class="text-center card-header card-primary">₹-550/-</h1></div>
+		        <p class="text-center card-text">hyedrabadi biryani</p></div>
+		    </div>
+      <div class="swiper-slide" style="background-image:url('7.jpg')"><div id="swiper-caption"><div><h1 class="text-center card-header card-primary">₹-850/-</h1></div>
+		        <p class="text-center card-text">indian special thali</p></div>
+		    </div>
+      <div class="swiper-slide" style="background-image:url('8.jpg')"><div id="swiper-caption"><div><h1 class="text-center card-header card-primary">strating at-₹-150/-</h1></div>
+		        <p class="text-center card-text">chinese food's</p></div>
+		    </div>
+      <div class="swiper-slide" style="background-image:url('9.jpg')"><div id="swiper-caption"><div><h1 class="text-center card-header card-primary">₹-349/-</h1></div>
+		        <p class="text-center card-text">grilled tikka</p></div>
+		    </div>
+      <div class="swiper-slide" style="background-image:url('10.jpg')"><div id="swiper-caption"><div><h1 class="text-center card-header card-primary text-capitalize">come for food!<br>our food is too good!</h1></div>
+		        </div></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+</div>
+
+<!-- /////last page//// -->
+
+<section>
+<div class="container">
+	<div class="row" id="last-1">
+		<div class="col-xl-4 col-md-8 col-lg-4 col-sm-12 text-center col-12 d-block m-auto " id="last">
+				<h1>ABOUT US</h1>
+				<P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus et dolor blanditiis consequuntur ex voluptates perspiciatis omnis unde minima expedita.</P>
+			</div>
+
+			<div class="col-xl-4 col-md-8 col-lg-4 col-sm-12 text-center col-12 d-block m-auto " id="last-m">
+				<h1>OPENING HOURS</h1>
+				<P>Sunday-Thursday</P><BR>
+<P>5AM - 10PM<P>
+<h1>CONTACT INFO</h1>
+				<h2>ADDRESS :</h2><BR>
+
+<P>34 Street Name, City Name Here, United States<P><BR>
+
+<h2>PHONE :</h2><BR>
+<PRE>+91 9354699687<PRE>
+
+	<h2>EMAIL :</h2>
+<PRE>YESAJ9354@GMAIL.COM<PRE>
+
+			</div>
+			<div class="col-xl-4 col-md-8 col-lg-4 col-sm-12 text-center col-12 d-block m-auto " id="last-l">
+				<h1>QUICK LINKS</h1>
+				<a href="#">about</a><br><br>
+				<a href="#">terms of use</a><br><br>
+				<a href="#">disclaimers</a><br><br>
+				<a href="#">contact</a><br><br>
+			</div>
+	</div>
+</div>
+</section>
+
+<section>
+	<div class="container-fluid">
+
+		<h1 id="Copyright" class="m-auto">Copyright ©2020 All rights reserved | This website is made with</h1><br><br>
+		<div class="m-auto" id="my"><img class="m-auto" src="my.jpg" id="my-img"><br><SPAN>BY ASHU JHA</SPAN></div>
+	</div>
+</section>
+<br><br>
+<br><br>
+
+
+
+	
+<!-- Swiper JS -->
+ <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 500,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+</body>
+</html>
